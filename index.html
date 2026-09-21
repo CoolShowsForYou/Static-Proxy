@@ -24,7 +24,7 @@
     </div>
 <br>
     <form>
-        <input class="search-input" placeholder="Search Stock Images: The Movie"for example">
+        <input class="search-input" placeholder="Search Stock Images: The Movie for example">
     </form>
     <div class="text-center">
    <button>About:Blank</button>
@@ -34,12 +34,7 @@
  
     if (url) {
         var win;
- 
-<!-- Example game layout block -->
-<div class="game-card">
-    <h3>TIP</h3>
-    <iframe src="URL_TO_GAME_SOURCE" width="800" height="600"></iframe>
-</div>        document.querySelector('button').onclick = function() {
+              document.querySelector('button').onclick = function() {
             if (win) {
                 win.focus();
             } 
@@ -55,6 +50,10 @@
                 iframe.src = url;
                 win.document.body.appendChild(iframe);
                 location.replace("https://lms.fcps.edu/home");
+
+</div>
+
+<a href="about.html">Go to About Page</a>
             }
         };
     }
